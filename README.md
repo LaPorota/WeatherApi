@@ -6,14 +6,6 @@ Welcome to my weather API!
 
 The **Weather Api** works with **Openweather**'s Rest API. It filters the information brought by the server to give you a good forecast avoiding the miscellany.
 
-
-
-
-https://user-images.githubusercontent.com/101206218/185814644-fcd88747-5708-4801-a1bd-bc082dcb999a.mp4
-
-
-
-
 ## How to use it?
 
 **Weather Api** works with flask, so try to use it with your host up. You can use it without a runing server but I don't give guarantees that it will work :joy:
@@ -53,6 +45,9 @@ This is an optional parameter, allows you to filter by city and country in case 
 http://127.0.0.1:5000/weather?city=london&country=gb
 
 
+## watch it in action
+
+https://user-images.githubusercontent.com/101206218/185814644-fcd88747-5708-4801-a1bd-bc082dcb999a.mp4
 
 
 
