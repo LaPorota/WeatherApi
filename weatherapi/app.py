@@ -74,7 +74,7 @@ def get_degrees(degrees):
 
 
 @app.route('/weather')
-#@cached(cache)
+@cached(cache)
 def weather_shower():
     
     city = request.args.get('city')
