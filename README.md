@@ -1,6 +1,6 @@
 # WeatherApi
 
-Welcome to My weather API!
+Welcome to my weather API!
 
 ## How it works?
 
