@@ -110,11 +110,11 @@ def weather_shower():
    
     response = requests.get(url).json()
 
-    print(response)      
+   
     try:
-        print("start")
+      
         context = create_json_weather(response)
-        print("end")
+        
     except:
         return "Wrong request"
 
