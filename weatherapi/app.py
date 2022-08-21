@@ -83,7 +83,7 @@ def create_json_weather(response):
                 "sunrise": unix_to_timestamp(response['sys']['sunrise']),
                 "sunset": unix_to_timestamp(response['sys']['sunset']),
                 "geo_coordinates": f"Lon: {response['coord']['lon']}, Lat: {response['coord']['lat']} ",
-                "requested_time": dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "requested_time": dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         }
     return context
@@ -110,8 +110,7 @@ def weather_shower():
     
    
     response = requests.get(url).json()
-
-    print(response)      
+     
     try:
         context = create_json_weather(response)
     except:
