@@ -104,7 +104,7 @@ def weather_shower():
         url = f'{OW_URL}appid={API_KEY}&q={city}'    
         
     else:
-        wrong= "Make a request"
+        wrong = "Make a request"
 
         return wrong
     
